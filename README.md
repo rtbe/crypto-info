@@ -21,13 +21,14 @@ go build -o cryptoInfo ./cmd/main.go
     ```
     ./cryptoInfo -c ethereum
     ```
-
+    ![](./assets/img/getEthereum.png)
+    
     You can also specify list of cryptocurrencies to be fetched (Beware! Separate cryptocurrencies by coma with no space afterwards).
     ```
     ./cryptoInfo -c ethereum,tezos
     ```
     Will fetch actual price of both ethereum and tezos and output it in your terminal.
-
+    ![](assets/img/getEthereumAndTezos.png)
 ## Flags
 
 This tool is heavily dependent on using flags (as most of CLI tools).
