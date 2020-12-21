@@ -1,10 +1,10 @@
 package main
 
 import (
-	"cryptoInfo/internal/coin"
-	"cryptoInfo/internal/history"
-	"cryptoInfo/internal/job"
-	"cryptoInfo/internal/price"
+	"cryptoInfo/internal/entity/coin"
+	"cryptoInfo/internal/entity/history"
+	"cryptoInfo/internal/entity/job"
+	"cryptoInfo/internal/entity/price"
 	"flag"
 	"net/http"
 	"strings"

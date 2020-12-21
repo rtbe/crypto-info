@@ -1,8 +1,8 @@
 package coin
 
 import (
-	"cryptoInfo/internal/history"
-	"cryptoInfo/internal/price"
+	"cryptoInfo/internal/entity/history"
+	"cryptoInfo/internal/entity/price"
 	"encoding/csv"
 	"fmt"
 	"io"
